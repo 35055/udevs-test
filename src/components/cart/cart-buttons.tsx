@@ -11,10 +11,10 @@ export const CartButtons = (props: TProps) => {
     <Box>
       {status === "new" ? (
         <SimpleGrid cols={2}>
-          <Button variant="outline" color="red" leftIcon={<IconX size={15} />}>
+          <Button variant="outline" color="red" leftIcon={<IconX size={20} />}>
             Отменить
           </Button>
-          <Button color="blue" leftIcon={<IconCheck size={15} />}>
+          <Button color="blue" leftIcon={<IconCheck size={20} />}>
             Принять
           </Button>
         </SimpleGrid>

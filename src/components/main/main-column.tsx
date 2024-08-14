@@ -20,7 +20,7 @@ export const MainColumn = (props: TProps) => {
         background: "#f1f3f5",
         borderRadius: "8px",
         height: "max-content",
-        flexShrink: 0, // Это предотвращает сжатие колонки
+        flexShrink: 0,
       }}
     >
       <Box
@@ -37,7 +37,7 @@ export const MainColumn = (props: TProps) => {
           }}
         >
           <Title order={3}>{title}</Title>
-          <Text weight={700} size="md">
+          <Text weight={700} size="xl">
             ({data.length})
           </Text>
         </Flex>
@@ -50,7 +50,7 @@ export const MainColumn = (props: TProps) => {
         }}
       >
         {data.map((product, index) => (
-          <Cart key={index} cart={product} />
+          <Cart key={index} cart={product} index={index} />
         ))}
       </Flex>
     </Flex>

@@ -16,7 +16,7 @@ export const MainContent = () => {
         whiteSpace: "nowrap", // Запрещаем перенос строк
       }}
     >
-      <MainColumn data={newData} title="НОВЫЙ" color="#4263eb" />
+      <MainColumn data={newData} title="НОВЫЙ" color="#1c7ed6" />
       <MainColumn data={workpieceData} title="ЗАГОТОВКА" color="#ffd43b" />
       <MainColumn data={readyData} title="ГОТОВ" color="#74b816" />
       <MainColumn data={deliveryData} title="КУРЬЕР В ПУТИ" color="#37b24d" />
