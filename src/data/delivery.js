@@ -1,4 +1,4 @@
-const data = [
+export const deliveryData = [
   {
     id: 321545,
     time: "15:22",

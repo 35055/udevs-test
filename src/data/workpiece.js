@@ -1,4 +1,4 @@
-const data = [
+export const workPieceData = [
   {
     id: 321545,
     time: "15:22",
