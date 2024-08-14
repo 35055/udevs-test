@@ -1,10 +1,27 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
+import { MantineProvider } from "@mantine/core";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{
+        // Override any other properties from default theme
+        fontFamily: "Open Sans, sans serif",
+        spacing: {
+          xs: "1rem",
+          sm: "1.2rem",
+          md: "1.8rem",
+          lg: "2.2rem",
+          xl: "2.8rem",
+        },
+      }}
+    >
+      <App />
+    </MantineProvider>
+  </StrictMode>
+);

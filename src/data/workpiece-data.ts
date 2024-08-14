@@ -1,4 +1,4 @@
-export const workPieceData = [
+const workpieceData = [
   {
     id: 321545,
     time: "15:22",
@@ -58,3 +58,5 @@ export const workPieceData = [
     ],
   },
 ];
+
+export default workpieceData;

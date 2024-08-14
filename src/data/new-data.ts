@@ -1,4 +1,4 @@
-export const newData = [
+const newData = [
   {
     id: 321545,
     time: "15:22",
@@ -161,3 +161,5 @@ export const newData = [
     ],
   },
 ];
+
+export default newData;
