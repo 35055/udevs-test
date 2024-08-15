@@ -33,20 +33,20 @@ export const MainColumn = (props: TProps) => {
           align="center"
           gap="0.2rem"
           sx={{
-            margin: "0.6rem ",
+            marginLeft: "0.6rem ",
             color: "white",
             fontSize: "1rem",
           }}
         >
           <h3>{title}</h3>
-          <Text
-            weight={700}
-            sx={{
+          <p
+            style={{
               fontSize: "1rem",
+              fontWeight: "900",
             }}
           >
             ({data.length})
-          </Text>
+          </p>
         </Flex>
       </Box>
       <Flex
