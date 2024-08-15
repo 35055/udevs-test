@@ -8,7 +8,7 @@ export const Layout = () => {
     <AppShell
       padding="md"
       navbar={
-        <Navbar width={{ base: 70 }} height="100%" p="xs">
+        <Navbar width={{ base: 70 }} p="sm">
           <NavbarComponent />
         </Navbar>
       }

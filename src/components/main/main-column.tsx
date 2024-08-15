@@ -1,4 +1,4 @@
-import { Flex, Box, Title, Text } from "@mantine/core";
+import { Flex, Box, Text } from "@mantine/core";
 import { TCart } from "../../types/t-cart";
 import { Cart } from "../cart/cart";
 
@@ -34,10 +34,17 @@ export const MainColumn = (props: TProps) => {
           gap="0.2rem"
           sx={{
             margin: "0.6rem ",
+            color: "white",
+            fontSize: "1rem",
           }}
         >
-          <Title order={3}>{title}</Title>
-          <Text weight={700} size="xl">
+          <h3>{title}</h3>
+          <Text
+            weight={700}
+            sx={{
+              fontSize: "1rem",
+            }}
+          >
             ({data.length})
           </Text>
         </Flex>

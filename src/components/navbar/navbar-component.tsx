@@ -7,7 +7,7 @@ import {
 
 export const NavbarComponent = () => {
   return (
-    <Flex h="92%" direction="column" justify="space-between" align="center">
+    <Flex h="100%" direction="column" justify="space-between" align="center">
       <IconAlignBoxBottomLeftFilled color="#1c7ed6" size={40} />
       <Flex direction="column" align="center" gap="xs">
         <IconSettings size={30} color="#868e96" />
