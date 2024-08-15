@@ -9,11 +9,11 @@ export const MainContent = () => {
   return (
     <Flex
       gap="md"
-      wrap="nowrap" // Запрещаем перенос колонок на следующую строку
+      wrap="nowrap"
       style={{
         minWidth: "100%",
-        overflowX: "auto", // Обеспечиваем горизонтальный скролл при переполнении
-        whiteSpace: "nowrap", // Запрещаем перенос строк
+        overflowX: "auto",
+        whiteSpace: "nowrap",
       }}
     >
       <MainColumn data={newData} title="НОВЫЙ" color="#1c7ed6" />

@@ -10,7 +10,6 @@ createRoot(document.getElementById("root")!).render(
       withGlobalStyles
       withNormalizeCSS
       theme={{
-        // Override any other properties from default theme
         fontFamily: "arial",
         spacing: {
           xs: "1rem",
