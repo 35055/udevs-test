@@ -8,8 +8,8 @@ type TProps = {
 export const CartButtons = (props: TProps) => {
   const { status } = props;
   return (
-    <Box>
-      {status === "new" ? (
+    <>
+      {status === "new" && (
         <SimpleGrid cols={2}>
           <Button variant="outline" color="red" leftIcon={<IconX size={20} />}>
             Отменить
@@ -18,9 +18,7 @@ export const CartButtons = (props: TProps) => {
             Принять
           </Button>
         </SimpleGrid>
-      ) : (
-        ""
       )}
-    </Box>
+    </>
   );
 };

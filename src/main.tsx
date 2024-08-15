@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")!).render(
       withNormalizeCSS
       theme={{
         // Override any other properties from default theme
-        fontFamily: "Open Sans, sans serif",
+        fontFamily: "arial",
         spacing: {
           xs: "1rem",
           sm: "1.2rem",

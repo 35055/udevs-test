@@ -10,8 +10,8 @@ export const AddCommentAndButton = (props: TProps) => {
   const { index, status } = props;
 
   return (
-    <Box>
-      {status === "workpiece" && index === 0 ? (
+    <>
+      {status === "workpiece" && index === 0 && (
         <Box>
           <Accordion
             styles={{
@@ -55,16 +55,12 @@ export const AddCommentAndButton = (props: TProps) => {
             Принять
           </Button>
         </Box>
-      ) : (
-        ""
       )}
-      {status === "ready" && index === 3 ? (
+      {status === "ready" && index === 3 && (
         <Button w="100%" color="blue" variant="outline">
           Завершить
         </Button>
-      ) : (
-        ""
       )}
-    </Box>
+    </>
   );
 };

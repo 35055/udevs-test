@@ -34,11 +34,11 @@ export const MainInfoComponent = () => {
         </Accordion>
         <Paper
           withBorder
-          p="0.2rem"
           sx={{
             display: "flex",
             alignItems: "center",
             gap: "0.2rem",
+            padding: "0.2rem 0.5rem",
           }}
         >
           <IconClock color="#1c7ed6" />
