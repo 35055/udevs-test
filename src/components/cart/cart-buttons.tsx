@@ -1,4 +1,4 @@
-import { Box, Button, SimpleGrid } from "@mantine/core";
+import { Button, SimpleGrid } from "@mantine/core";
 import { IconX, IconCheck } from "@tabler/icons-react";
 
 type TProps = {
