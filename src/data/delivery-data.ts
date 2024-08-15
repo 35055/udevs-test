@@ -7,6 +7,7 @@ const deliveryData = [
     payment: "cash",
     comments: null,
     orderType: "delivery",
+    freshnessState: false,
     products: [
       {
         title: "Лаваш мясной Standart острый",

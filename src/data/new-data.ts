@@ -7,6 +7,7 @@ const newData = [
     payment: "payme",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Пепси 0,5",
@@ -33,6 +34,7 @@ const newData = [
     payment: "apelsin",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Пепси 0,5",
@@ -59,6 +61,7 @@ const newData = [
     payment: "cart",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Пепси 0,5",
@@ -85,6 +88,7 @@ const newData = [
     payment: "cash",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Пепси 0,5",
@@ -111,6 +115,7 @@ const newData = [
     payment: "cash",
     comments: null,
     orderType: "delivery",
+    freshnessState: true,
     products: [
       {
         title: "Big Gamburger",
@@ -142,6 +147,7 @@ const newData = [
     payment: "click",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Пепси 0,5",

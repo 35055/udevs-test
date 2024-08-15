@@ -7,6 +7,7 @@ const readyData = [
     payment: "cash",
     comments: null,
     orderType: "inside",
+    freshnessState: false,
     products: [
       {
         title: "Big Гамбургер",
@@ -54,6 +55,7 @@ const readyData = [
     payment: "cash",
     comments: null,
     orderType: "inside",
+    freshnessState: false,
     products: [
       {
         title: "Big Гамбургер",
@@ -85,6 +87,7 @@ const readyData = [
     payment: "cash",
     comments: null,
     orderType: "inside",
+    freshnessState: true,
     products: [
       {
         title: "Лаваш мясной Standart острый",

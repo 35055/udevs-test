@@ -7,6 +7,7 @@ const workpieceData = [
     payment: "cart",
     orderType: "inside",
     comments: ["1", "2", "3"],
+    freshnessState: true,
     products: [
       {
         title: "Гамбургер",
@@ -23,6 +24,7 @@ const workpieceData = [
     payment: "cart",
     comments: null,
     orderType: "inside",
+    freshnessState: false,
     products: [
       {
         title: "Big Гамбургер",
@@ -49,6 +51,7 @@ const workpieceData = [
     payment: "cart",
     comments: null,
     orderType: "pickup",
+    freshnessState: false,
     products: [
       {
         title: "Гамбургер",

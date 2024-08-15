@@ -1,4 +1,4 @@
-import { Flex, Box, Text } from "@mantine/core";
+import { Flex, Box } from "@mantine/core";
 import { TCart } from "../../types/t-cart";
 import { Cart } from "../cart/cart";
 
@@ -57,7 +57,7 @@ export const MainColumn = (props: TProps) => {
         }}
       >
         {data.map((product, index) => (
-          <Cart key={index} cart={product} index={index} />
+          <Cart key={index} cart={product} />
         ))}
       </Flex>
     </Flex>

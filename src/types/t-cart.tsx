@@ -12,5 +12,6 @@ export type TCart = {
   payment: string;
   comments: null | string[];
   orderType: string;
+  freshnessState: boolean;
   products: TProduct[];
 };
